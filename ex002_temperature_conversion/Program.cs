@@ -1,4 +1,6 @@
-﻿int[] gradosCelsius = {-100, 0, 25, 30, 32, 50, 100, 180};
+﻿// http://inventwithpython.com/pythongently/exercise2/
+
+int[] gradosCelsius = {-100, 0, 25, 30, 32, 50, 100, 180};
 int[] gradosFahrenheit = {0, 1, 15, 32, 100};
 
 

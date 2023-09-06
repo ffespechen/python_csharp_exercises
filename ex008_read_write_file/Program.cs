@@ -1,4 +1,6 @@
-﻿Console.Write("Nombre del archivo de destino >> ");
+﻿// http://inventwithpython.com/pythongently/exercise8/
+
+Console.Write("Nombre del archivo de destino >> ");
 string? archivo = Console.ReadLine();
 Console.Write("Texto a guardar en el archivo >> ");
 string? texto = Console.ReadLine();

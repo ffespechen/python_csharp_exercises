@@ -1,4 +1,6 @@
-﻿Console.WriteLine(GetChessSquareColor(1, 1));
+﻿// http://inventwithpython.com/pythongently/exercise9/
+
+Console.WriteLine(GetChessSquareColor(1, 1));
 Console.WriteLine(GetChessSquareColor(2, 1));
 Console.WriteLine(GetChessSquareColor(1, 2));
 Console.WriteLine(GetChessSquareColor(7, 7));

@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Hello, world!");
+﻿// http://inventwithpython.com/pythongently/exercise1/
+
+Console.WriteLine("Hello, world!");
 Console.WriteLine("What is your name?");
 
 string? nombre = Console.ReadLine();

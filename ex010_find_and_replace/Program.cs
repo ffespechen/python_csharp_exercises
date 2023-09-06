@@ -1,4 +1,6 @@
-﻿Console.Write("Texto de trabajo >> ");
+﻿// http://inventwithpython.com/pythongently/exercise10/
+
+Console.Write("Texto de trabajo >> ");
 string? texto = Console.ReadLine();
 Console.Write("Texto a buscar >> ");
 string? textoViejo = Console.ReadLine();

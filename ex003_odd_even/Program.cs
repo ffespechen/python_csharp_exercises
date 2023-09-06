@@ -1,4 +1,6 @@
-﻿Random rnd = new Random();
+﻿// http://inventwithpython.com/pythongently/exercise3/
+
+Random rnd = new Random();
 const int ITERACIONES = 12;
 
 for (int i = 0; i < ITERACIONES; i++ )
