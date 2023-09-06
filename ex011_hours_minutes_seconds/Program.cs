@@ -1,4 +1,5 @@
-﻿// Convertir segundos en HH:mm:ss
+﻿// http://inventwithpython.com/pythongently/exercise11/
+
 uint[] segundos = { 30, 60, 90, 3600, 3601, 3661, 90042, 0};
 
 
