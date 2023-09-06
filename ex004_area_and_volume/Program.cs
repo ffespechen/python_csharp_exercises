@@ -1,7 +1,9 @@
-﻿Random rnd = new Random();
-int largo = rnd.Next(1, 20);
-int ancho = rnd.Next(1, 20);
-int altura = rnd.Next(1,30);
+﻿// https://learn.microsoft.com/en-us/dotnet/api/system.random.next?view=net-7.0#system-random-next
+// Next() Returns a non-negative random integer.
+Random rnd = new Random();
+uint largo = (uint)rnd.Next(1, 20);
+uint ancho = (uint) rnd.Next(1, 20);
+uint altura = (uint) rnd.Next(1,30);
 
 Console.WriteLine("---- Parámetros ----");
 Console.WriteLine($"Largo:  {largo, 5:N0}");
