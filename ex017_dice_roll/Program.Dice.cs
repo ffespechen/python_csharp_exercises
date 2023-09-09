@@ -5,13 +5,21 @@ partial class Program
         Random rnd = new Random();
         int suma = 0;
 
-        for (int i = 0; i < cantidad; i++)
+        using (StreamWriter sw = File.AppendText( Path.Combine(Environment.CurrentDirectory, "resultados.csv")))
         {
-            int tirada = rnd.Next(1, 7);
-            Console.WriteLine($"Dado Nro {i+1} -> {tirada}");
-            suma += tirada;
-        }
+            for (int i = 0; i < cantidad; i++)
+                {
+                    // Versión original
+                    int tirada = rnd.Next(1, 7);
 
+                    sw.Write(tirada);
+                    sw.Write(";");
+                    // Console.WriteLine($"Dado Nro {i+1} -> {tirada}");
+                    suma += tirada;
+                }
+                sw.WriteLine(suma);
+        }
+    
         return suma;
     }
 }
